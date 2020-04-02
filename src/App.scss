@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.d {
+  &-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.container {
+  & > div {
+    padding: 1rem 0;
+  }
+}
+
+.section {
+  padding: 4rem 0;
+}

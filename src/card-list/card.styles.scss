@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform .25s ease-in-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
